@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353854518276",
+    "project_id": "investplay-74e02",
+    "storage_bucket": "investplay-74e02.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353854518276:android:1af4eccf5ad6e889d33151",
+        "android_client_info": {
+          "package_name": "com.example.investplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTc8_U1P6cyJudTqlHr0DNO_G-WL8_ZQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
