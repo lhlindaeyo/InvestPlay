@@ -1,1 +1,40 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"investplay-74e02","appId":"1:353854518276:android:1af4eccf5ad6e889d33151","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"investplay-74e02","configurations":{"android":"1:353854518276:android:1af4eccf5ad6e889d33151","ios":"1:353854518276:ios:62a66a7b62ed306ad33151","web":"1:353854518276:web:0fc176e0d01704a5d33151"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "investplay-74e02",
+          "appId": "1:353854518276:android:1af4eccf5ad6e889d33151",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "investplay-74e02",
+          "configurations": {
+            "android": "1:353854518276:android:1af4eccf5ad6e889d33151",
+            "ios": "1:353854518276:ios:62a66a7b62ed306ad33151",
+            "web": "1:353854518276:web:0fc176e0d01704a5d33151"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}

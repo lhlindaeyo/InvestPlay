@@ -22,7 +22,7 @@ class AppRoot extends ConsumerWidget {
           ),
         ),
       ),
-      error: (_, __) => const LoginScreen(),
+      error: (_, _) => const LoginScreen(),
       data: (user) {
         if (user == null) {
           return const LoginScreen();
